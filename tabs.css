@@ -1,0 +1,38 @@
+@import "_fonts";
+
+#tabs {
+	margin: 10px 0;
+}
+.tabs-nav {
+	overflow: hidden;
+	margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.tabs-nav li {
+	display: inline-block;
+	padding: 0;
+	list-style: none;
+	margin-left: 50px;
+}    
+.tabs-nav a {
+    letter-spacing: 0.05em;
+    font-family: Oswald;
+    text-transform: uppercase;
+	display: block;
+	padding-bottom: 5px;
+    font-size: 24px;
+    text-decoration: none;
+	text-align: center;
+	color: #343434;
+}		
+
+
+.tabs-nav a.active {
+    color: #005BC1;
+    border-bottom: 2px solid #005BC1;
+}    
+
+.tabs-item {
+	padding: 15px;
+}
